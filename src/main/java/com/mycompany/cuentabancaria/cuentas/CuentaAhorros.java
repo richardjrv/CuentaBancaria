@@ -13,16 +13,16 @@ public class CuentaAhorros extends Cuenta{
     // metodos 
 
     @Override
-    public boolean consignar(float cantidadDinero){
+    public boolean consignar(float cantidad){
         boolean respuesta=false;
         if(activa){
-        respuesta = super.consignar(cantidadDinero);
+        respuesta = super.consignar(cantidad);
         }
         
     return respuesta;
 }
     @Override
-    public boolean retirar(float cantidadDinero){
+    public boolean retirar(float cantidad){
     return true;
 }
 

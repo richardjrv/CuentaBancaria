@@ -14,11 +14,11 @@ public class CuentaCorriente extends Cuenta{
     // metoodos
     //override significa sobreescribir para diferenciar es el mismo nombre pero diferente comportamiento
     @Override
-    public boolean consignar(float cantidadDinero){
+    public boolean consignar(float cantidad){
     return true;
 }
     @Override
-    public boolean retirar(float cantidadDinero){
+    public boolean retirar(float cantidad){
     return true;
 }
     @Override
