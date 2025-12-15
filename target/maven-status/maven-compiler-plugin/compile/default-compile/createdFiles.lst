@@ -1,4 +1,13 @@
 com\mycompany\cuentabancaria\CuentaBancaria.class
-com\mycompany\cuentabancaria\cuentas\CuentaCorriente.class
-com\mycompany\cuentabancaria\cuentas\Cuenta.class
-com\mycompany\cuentabancaria\cuentas\CuentaAhorros.class
+com\mycompany\cuentabancaria\modelo\objetos\CuentaCorriente.class
+com\mycompany\cuentabancaria\modelo\objetos\Persona.class
+com\mycompany\cuentabancaria\modelo\implementacion\CuentasAhorros.class
+com\mycompany\cuentabancaria\modelo\implementacion\CuentasCorrientes.class
+com\mycompany\cuentabancaria\modelo\interfaces\ICuentaAhorros.class
+com\mycompany\cuentabancaria\modelo\implementacion\Clientes.class
+com\mycompany\cuentabancaria\modelo\interfaces\ICliente.class
+com\mycompany\cuentabancaria\modelo\implementacion\Cuentas.class
+com\mycompany\cuentabancaria\modelo\interfaces\ICuentaCorriente.class
+com\mycompany\cuentabancaria\modelo\objetos\CuentaAhorros.class
+com\mycompany\cuentabancaria\modelo\objetos\Cuenta.class
+com\mycompany\cuentabancaria\modelo\objetos\Cliente.class
